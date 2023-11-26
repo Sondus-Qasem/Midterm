@@ -6,3 +6,5 @@ def open_tab(): #method1
     url = input("Enter the URL: ")
     new_tab = {"Title": title, "URL": url, "Nested Tabs": []}
     open_tabs.append(new_tab)
+# Function to close a tab
+def close_tab():
